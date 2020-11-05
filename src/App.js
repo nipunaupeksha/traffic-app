@@ -2,10 +2,9 @@ import Map from './components/Map';
 import {Container} from 'reactstrap';
 import React ,{Component} from 'react';
 import Header from './components/Header';
+import './App.css';
 
 require('dotenv').config();
-
-import './App.css';
 
 class App extends Component {
   constructor(props)
